@@ -1,0 +1,21 @@
+/* #bg{
+    background-color: brown;
+} */
+
+body{
+    /* background-color: yellow; */
+    height: 100vh;
+    overflow-x: hidden;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+#bg{
+    background-image: url(./images.png);
+color: red;
+background-repeat: no-repeat;
+background-size: 100% 100%; 
+font-size: 24px;
+background-attachment: fixed;
+}

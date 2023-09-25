@@ -1,0 +1,24 @@
+p{
+    color: aqua;
+}
+
+#p3{
+    color: brown;
+}
+
+
+/* Doing Comment in CSS */ (This tags is used to do comment in css.   /* */)
+
+
+
+.green-text{
+    color: cornflowerblue;
+}
+
+#f3{
+    font-size: 28px;
+}
+
+.Underline-text{
+    text-decoration: underline;
+}
