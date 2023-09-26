@@ -1,3 +1,26 @@
 #border{
+    border-style: solid none dashed dotted;
+    /* 4 border styles are added above and they always show in clockwise direction */
+    
+}
+
+#border1{
+    border-style: solid dotted;
+    border-width: 2px 3px 5px 7px;
+    border-color: aqua green hotpink lightcoral;
+
+    /* We can write above 3 tag line also if we have to do just specific style */
+}
+
+#border2{
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: red;
+}
+
+#border3{
     border-style: solid;
+    border-width: 10px;
+    border-color: green;
+    border-radius: 28px;
 }
