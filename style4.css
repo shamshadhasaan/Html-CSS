@@ -1,3 +1,9 @@
 #CHW{
-    
+    background-color: brown;
+    height: 500px;
+    width: 70%;
+    max-width: 500px;
+    max-height: 300px;
+    min-height: 100px;
+    min-width: 50%;
 }
