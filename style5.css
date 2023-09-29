@@ -1,9 +1,15 @@
 #div1{
     border: 1px solid green;
-    padding-top: 50px; 
-    padding-bottom: 20px;
+    /* padding-top: 50px; 
+    padding-bottom: 50px;
     padding-right: 10%;
-    padding-left: 20%;
+    padding-left: 20%; */
 
+    /* we can also use all four above padding in one line.   */
 
+    padding: 25px 50px 28px 60px;
+
+    /* If we write ( padding: 25px;) it will use for all sides,
+    If we write ( padding: 25px 50px;) then 25px will use for top and bottom and 50px use for right and left,
+    If we write ( padding: 25px 50px 30px 55px;)  then 25px will use for top, 50px use for right, 30px use for bottom, and 55px use for left (clockwise). */
 }
