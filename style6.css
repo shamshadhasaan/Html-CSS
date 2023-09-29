@@ -1,0 +1,23 @@
+.div1{
+    border: 1px solid green;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+
+#marg{
+    margin-top: -25px;
+    /* -px can only be used in margin tag */
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#margin{
+    border: 3px solid yellow;
+    width: 300px;
+    padding: 55px;
+    margin: 28px auto;
+}
