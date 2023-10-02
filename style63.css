@@ -1,0 +1,28 @@
+#text{
+  width: 500px;
+  border: 2px solid green;  
+  color: yellow;
+  /* text-align: center; */
+  text-align: justify;
+  /* text-transform: lowercase; */
+  /* text-transform: capitalize; ( use for capitalize the every first word capital ) */
+  text-transform: uppercase;
+  line-height: 28px;
+  /* letter-spacing: 8px;   */
+  word-spacing: 10px;
+
+}
+
+#shadow{
+    font-size: 82px;
+    text-shadow:  5px 6px 7px red
+    /* 1st px for horizontal, 2nd for vertical, 3rd for blurryness */
+}
+
+#text1{
+    width: 500px;
+    height: 100px;
+    border: 2px solid hotpink;
+    writing-mode: vertical-rl;
+}
+
