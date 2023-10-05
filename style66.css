@@ -1,7 +1,19 @@
 #parent{
-
+    border: 2px solid lightseagreen;
+    height: 20vh;
+    width: 50vw;
 }
 
 #child{
-    
+    border: 2px solid lightseagreen;
+    width: 50%;
 }
+
+#parent1{
+    font-size: 3rem;
+}s
+
+#child1{
+    font-size: 2em;
+}
+/* em font size multiply by rem = em font size, 3*2=6   */
