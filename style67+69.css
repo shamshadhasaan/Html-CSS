@@ -1,0 +1,33 @@
+div{
+    border: 2px solid green;
+    cursor: zoom-in;
+}
+
+#cursor{
+    border: 2px solid green;
+    cursor: help;
+}
+
+/* For video 69 */
+
+#asd{
+    border: 2px solid green;
+    width: 280px;
+    background-color: skyblue;
+    margin: 40px;
+    padding: 28px;
+    box-shadow: 10px 10px 15px 3px grey, -10px 10px 15px 3px red;
+
+}
+
+#asad{
+    border: 2px solid green;
+    width: 280px;
+    background-color: skyblue;
+    margin: 40px;
+    padding: 28px;
+    box-shadow: 10px 10px 15px 3px grey inset;
+    /* 1st ( 10px, 10px, is for X-axis and Y-axis ) 2nd ( 15px is for blurryness and 3px is for how much shadow spread) */
+    /* inset is for inside box shadow */
+
+}
