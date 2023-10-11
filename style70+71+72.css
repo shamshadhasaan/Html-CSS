@@ -1,0 +1,38 @@
+#color-box{
+    background-color: green;
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+    /* opacity is for transparency of the object its value is b/w 0 to 1 */
+}
+
+img:hover{
+    opacity: 0.7;
+}
+
+/* hover is for when we move the cursor on the image then it become transparent 0.7 level */
+
+/* Video 71  */
+
+#box{
+    filter: brightness(50%);
+    /* filter: blur(10px);
+    filter: contrast(70%); */
+    filter: drop-shadow(8px 8px 5px red)
+    /* filter: grayscale(80%); */
+    /* grayscale is for blacknwhite */
+       
+}
+
+/* Video 72 */
+
+#sprite{
+    height: 128px;
+    background-image: url(Images/sprite.webp);
+    background-repeat: no-repeat;
+    /* background-position: -5px -5px; */
+    /* background-position: -5px -143px; */
+    background-position: -5px -288px;
+}
+
