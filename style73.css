@@ -1,1 +1,13 @@
-#
+#div1{
+    height: 250px;
+    border: 2px solid green;
+    background-image: linear-gradient(to left, green, blue, red);
+    /* we can write also (to bottom right, or 120deg etc) in place of (to left like in upper bg img code) */
+}
+
+#div2{
+    height: 250px;
+    border: 2px solid green;
+    background-image: radial-gradient(circle, green 20%, blue 35%, red 45%)
+    /* by deafult radial gradient is eclipse shape */
+}
