@@ -1,0 +1,19 @@
+#overflow{
+    background-color: whitesmoke;
+    border: 3px solid red;
+    width: 500px;
+    height: 300px;
+    overflow: auto;
+    /* overflow-x: hidden;
+    overflow-y: scroll; */
+}
+
+/* Video 75 */
+
+textarea{
+    resize: vertical;
+     /* resize: none; */
+    /* resize: horizontal; */
+    /* resize: both;     */
+    /* these upper 3 properties also use in resizing */
+}
