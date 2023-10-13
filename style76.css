@@ -1,0 +1,14 @@
+ul{
+    list-style-type: square;
+    color: skyblue;
+    list-style-image: url(/Images/images.png);
+    list-style-position: inside;
+}
+
+ol{
+    list-style-type: lower-alpha;
+}
+
+li{
+    border: 2px solid greenyellow;
+}
