@@ -1,0 +1,37 @@
+#div1{
+    background-color: blueviolet;
+    height: 80px;
+    width: 360px;
+}
+
+#div2{
+    background-color: chocolate;
+    height: 80px;
+    width: 360px;
+    padding: 15px;
+    border: 6px solid lightgreen;
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+
+    /* When we use BORDER-box in box-sizing, then height and width will be assign to the border only, and if we use CONT-box in box-sizing, then height and width will be assign to the CONTENT only. */
+}
+
+/* Video 80 */
+
+#green{
+    color: green;
+}
+
+#blue{
+    color: red;
+}
+
+#initial{
+    color: initial;
+    /* initial means default value and link color is blue */
+}
+
+#inherit{
+    color: inherit;
+    /* inherit means parent value and parent value color is green */
+}
