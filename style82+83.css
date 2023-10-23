@@ -25,3 +25,25 @@
 li:nth-last-child(2){
     color: red;
 }
+
+/* Video 83 */
+
+p::first-line{
+    font-size: 25px;
+    color: red;
+}
+
+h1::before{
+    content: url(Images/images.png);
+}
+
+h1::after{
+    content:  " added after";
+}
+/* ( Pseudo Class has only 1 Colon like this : nd pseudo Element has 2 colons like this :: ) */
+
+
+::selection{
+    color: red !important;
+    background-color: yellow !important;
+}
