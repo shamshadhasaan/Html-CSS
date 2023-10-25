@@ -1,0 +1,43 @@
+img{
+    width: 100px;
+    height: auto;
+}
+
+#img1{
+    float: right;
+}
+
+#mg2{
+    float: left;
+}
+
+ul{
+    background-color: green;
+    list-style-type: none;
+    overflow: auto;
+}
+
+li{
+    color: beige;
+    padding: 10px 15px;
+    float: left;
+}
+
+#lorem{
+    border: 2px solid green;
+    overflow: auto;
+}
+
+#img3{
+    float: right;
+    width: 100px;
+    height: auto;
+}
+
+#img4{
+    float: right;
+    width: 100px;
+    height: auto;
+    clear: right;
+    /* clear tag is to put the img4 from side by side to under the img 3 */
+}
