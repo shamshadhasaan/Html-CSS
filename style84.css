@@ -1,0 +1,44 @@
+.display{
+    border: 2px solid red;
+    height: 70px;
+    width: 50%;
+ }
+
+ #display{
+    border: 2px solid red;
+    height: 70px;
+    width: 50%;
+    display: inline;
+}
+
+#disp{
+    border: 2px solid red;
+    height: 70px;
+    width: 50%;
+    display: inline-block;
+}
+
+ Display Property Important Values:
+1:  Block = Take all width of Element.
+        i = Always start from new line
+        ii = Take full width 100%
+        iii = We can apply both height an width.
+    div, class, p, h1 to h6, form etc are block elements (default display property of these tags are BLOCK) when we use these tags they takes up all width.
+2:  In-line = Takes up as much width as neededonly
+        i = Not start from new line
+        ii = Not takes up full width
+        iii = Cant apply height and width 
+    a, img, span, etc Takes up as much width as neededonly (default display property of these tags are BLOCK)
+WE CAN ALSO CHANGE DISPLAY PROPERTY FROM BLOCK TO INLINE-BLOCK.
+
+3:  Inline-Block
+        i = Not start from new line
+        ii = Not takes up full width
+        iii = Can apply height and width
+
+4:  None
+        If we want to remove any element then we can use none.
+ /* No 3 and No 4 properties are mostly not in default */
+ /* . */
+
+ 
