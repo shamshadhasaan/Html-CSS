@@ -16,6 +16,7 @@
 These 4 sub types only work the no. 2, 3, and 4 type of postion.
 
 {comment}
+
 body{
     height: 1000px;
 }
@@ -23,7 +24,8 @@ body{
     border: 2px solid red;
     padding: 20px;
     width: 50%;
-    display: inline-block;
+    position: relative;
+    margin: 100px;
 } 
 
 #one{

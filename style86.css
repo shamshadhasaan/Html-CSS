@@ -1,0 +1,36 @@
+#parent{
+    padding: 20px;
+    width: 50%;
+    margin: 100px;
+    position: relative;
+} 
+
+#one{
+    height: 100px; 
+    width: 100px;
+    background-color: gold;
+    display: inline-block;
+    position: relative;
+    z-index: 3; 
+    /* Jo Z-index sabsy zyada value me hoga wohi box, pic etc upar hoga, and apply only with position property. */
+}
+
+#two{
+    height: 100px; 
+    width: 100px;
+    background-color: green;
+    display: inline-block;
+    position: relative; left: -50px; top: 50px;
+    z-index: 2;
+}
+
+#three{
+    height: 100px; 
+    width: 100px;
+    background-color: aqua;
+    display: inline-block;
+    position: relative;
+    left: -100px; 
+    top: 100px;
+    z-index: 1;
+}
