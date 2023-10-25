@@ -1,0 +1,53 @@
+4 Type of Position
+    1. Static (Default = normal flow)
+    2. Relative
+        i. Start calculation from its own place.
+        ii. Occupy its space even though its move to another space, Apni jagah nahi chorta ha bhalay hi kahin aur jagah dikh raha ho.
+    3. Fixed (jese bottom pr chat icon hota ha)
+    4. Absolute
+        i. Start calculation from its own nearest positioned parent an d it didnt find positioned parent then it start from BODY.
+        ii. Not occupy its own space bhaalay hi apni jagah sy movr karay ya na karay.
+
+4 Sub types:
+    i. Top
+    ii. Bottom
+    iii. Right
+    iv. Left
+These 4 sub types only work the no. 2, 3, and 4 type of postion.
+
+{comment}
+body{
+    height: 1000px;
+}
+#parent{
+    border: 2px solid red;
+    padding: 20px;
+    width: 50%;
+    display: inline-block;
+} 
+
+#one{
+    height: 100px; 
+    width: 100px;
+    background-color: whitesmoke;
+    display: inline-block;
+}
+
+#two{
+    height: 100px; 
+    width: 100px;
+    background-color: green;
+    display: inline-block;
+    position: relative; left: 50px; top: 50px;
+}
+
+#three{
+    height: 100px; 
+    width: 100px;
+    background-color: aqua;
+    display: inline-block;
+    position: fixed; bottom: 10px; right: 10px; 
+}
+
+
+
