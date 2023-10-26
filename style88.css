@@ -1,0 +1,15 @@
+{With 2D transfromation, we can rotate, move, scale etc. We can use TRANSFORM to do last line mentioned tags. But it cant work with inline element, its only work only block or inline block, we can also change inline to block and inline to make things work .}
+
+#wrapper{
+    pad: 20px;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    color: white;
+     transform: translate(50px, 50px);
+     display: inline-block;
+}
